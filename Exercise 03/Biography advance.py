@@ -4,7 +4,7 @@ Try giving both your first and second name when asked for your name. What happen
 Test the program by entering a string value for age (e.g., "twenty"). What happens? How can you prevent this issue?
 '''
 
-#declaring variables
+#declaring variables with str and int to prevent improper input type
 Uno_Name = str(input("Enter First Name:"))
 Dos_Name = str(input("Enter Second Name:"))
 Hometown = str(input("Enter Hometown:"))
