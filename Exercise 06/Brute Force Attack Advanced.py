@@ -15,7 +15,7 @@ attempts = 0
 while attempts < maximum_atempt:
     entered_password = input("Please Enter Your Password: ")
     if entered_password == Correct_password:
-        print("Welcome back user")
+        print("Welcome back user ^^")
         break
     else:
         #adding 1 to the counter
@@ -26,4 +26,4 @@ while attempts < maximum_atempt:
         else:
             print("You have used up all your Attempts." + '\n' +
                   "THE PO PO HAS BEEN CALLED" + '\n' +
-                  "YOU BETTER RUN ")
+                  "YOU BETTER RUN!!!!! ")
