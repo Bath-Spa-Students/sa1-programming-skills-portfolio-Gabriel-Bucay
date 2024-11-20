@@ -8,6 +8,7 @@ The list is initialized with specific names ("Jake" "Zac", "Ian", "Ron", "Sam", 
 
 #list
 targets = ["Jake" "Zac", "Ian", "Ron", "Sam", "Dave"]
+#set to allow .strip().lower() the user input
 targets = set(search_target.strip().lower() for search_target in targets)
 search_target = input("Enter the targets name: ")
 
