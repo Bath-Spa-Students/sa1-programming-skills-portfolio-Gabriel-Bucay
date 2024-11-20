@@ -33,6 +33,7 @@ if 1 <= month <= 12:
 else:
     print("Incorrect month number. Please Enter numbers between 1-12. ")
 
+
 #Checking if its a leap year
 if  month == 2:
     leap_year = input("Is the current year a leap year? (yes or no) : ").strip().lower()
